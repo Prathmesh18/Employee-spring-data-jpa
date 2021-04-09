@@ -26,7 +26,7 @@ pipeline {
          steps{
             bat label: '', script: '''mvn sonar:sonar \
 		 -Dsonar.host.url=http://localhost:9000 \
- 		-Dsonar.login=d51e7f6380a528b36cea3db64f4ee21870015682'''
+ 		-Dsonar.login=301d821074b8177c62fcaffbb823a65b55a9df13'''
           }
 	}
 	stage('Maven Package'){
